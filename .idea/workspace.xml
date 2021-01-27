@@ -7,15 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14c73b98-47c8-4812-b184-8d2fb2649f26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inspur/jdbcdemo/dao/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbcdemo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jdbcdemo/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jdbcdemo/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jdbcdemo/index.jsp" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +21,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -87,9 +81,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceTest">
+  <component name="RunManager" selected="Tomcat Server.jdbc-tomcat">
     <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdbcdemo" />
+      <module name="spirng-jdbc-demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.inspur.jdbcdemo.service.*" />
@@ -104,7 +98,7 @@
       </method>
     </configuration>
     <configuration name="UserServiceTest.testLogin (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdbcdemo" />
+      <module name="spirng-jdbc-demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.inspur.jdbcdemo.service.*" />
@@ -120,7 +114,7 @@
       </method>
     </configuration>
     <configuration name="UserServiceTest.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdbcdemo" />
+      <module name="spirng-jdbc-demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="java.com.inspur.jdbcdemo.service.*" />
@@ -136,7 +130,7 @@
       </method>
     </configuration>
     <configuration name="UserServiceTest.testRegister" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdbcdemo" />
+      <module name="spirng-jdbc-demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.inspur.jdbcdemo.service.*" />
@@ -244,8 +238,18 @@
       <option name="presentableId" value="Default" />
       <updated>1611390026908</updated>
       <workItem from="1611390030542" duration="417000" />
-      <workItem from="1611539043443" duration="10461000" />
+      <workItem from="1611539043443" duration="13091000" />
+      <workItem from="1611714688314" duration="891000" />
+      <workItem from="1611715598996" duration="57000" />
     </task>
+    <task id="LOCAL-00001" summary="add: 补充demo，但是test运行会报错，未解决.">
+      <created>1611557471642</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611557471642</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,11 +260,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add: 补充demo，但是test运行会报错，未解决." />
+    <option name="LAST_COMMIT_MESSAGE" value="add: 补充demo，但是test运行会报错，未解决." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
